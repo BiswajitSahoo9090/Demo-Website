@@ -10,7 +10,7 @@ import { FooterComponent } from './portfolio-website/footer/footer.component';
 import { HomeComponent } from './portfolio-website/home/home.component';
 import { NavbarComponent } from './portfolio-website/navbar/navbar.component';
 import { EvalutionComponent } from './medical-form/evalution/evalution.component';
-import { ExampleComponent } from './medical-form/example/example.component';
+
 
 // import { ReactiveformComponent } from '../reactiveform/reactiveform.component';
 
@@ -20,7 +20,7 @@ import { ExampleComponent } from './medical-form/example/example.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,CommonModule,AboutComponent,ContactComponent,FooterComponent,HomeComponent,NavbarComponent,EvalutionComponent,ExampleComponent,],
+  imports: [RouterOutlet,CommonModule,AboutComponent,ContactComponent,FooterComponent,HomeComponent,NavbarComponent,EvalutionComponent,],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   
